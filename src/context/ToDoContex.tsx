@@ -35,7 +35,7 @@ export const TodoContext = createContext<IToDoContextData>(
   {} as IToDoContextData
 );
 
-const KEY_TODOS = 'todos';
+const KEY_TODOS = '@ignite-todo-app:todos';
 
 export function ToDoProvider({ children }: IToDoProviderProps) {
   const [todos, setTodos] = useState<TodoType[]>(() => {
@@ -67,8 +67,10 @@ export function ToDoProvider({ children }: IToDoProviderProps) {
         done: false,
       };
 
-      setTodos([...todos, todo]);
-      saveInStorage(KEY_TODOS, todos);
+      const newTodo = [...todos, todo];
+
+      setTodos(newTodo);
+      saveInStorage(KEY_TODOS, newTodo);
     },
     [todos]
   );
