@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  O <b>ToDo</b> é o primeiro desafio do primeiro módulo do curso Ignite ReactJS da Rocketseat.
+  O <b>ToDo</b> é o primeiro desafio do primeiro módulo do curso Ignite ReactJS da Rocketseat. Para acessar o código do curso do Ignite ReactJS v.2, <a href="https://github.com/tavareshenrique/ignite-reactjs-v2">clique aqui</a> .
 </p>
 
 ---
