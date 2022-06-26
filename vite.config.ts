@@ -7,7 +7,12 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      includeAssets: ['logo.svg', 'robots.txt'],
+      includeAssets: [
+        'favicon.svg',
+        'favicon.ico',
+        'robots.txt',
+        'apple-touch-icon.png',
+      ],
       manifest: {
         name: 'ToDo App',
         short_name: 'ToDo',
@@ -15,19 +20,19 @@ export default defineConfig({
         theme_color: '#1a1a1a',
         icons: [
           {
-            src: 'logo.svg',
+            src: 'pwa-192x192.png',
             sizes: '192x192',
-            type: 'image/svg+xml',
+            type: 'image/png',
           },
           {
-            src: 'logo.svg',
+            src: 'pwa-512x512.png',
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
           },
           {
-            src: 'logo.svg',
+            src: 'pwa-512x512.png',
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'any maskable',
           },
         ],
@@ -37,4 +42,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  publicDir: 'public',
 });
