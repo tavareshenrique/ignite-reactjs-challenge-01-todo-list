@@ -36,6 +36,7 @@ export default defineConfig({
             purpose: 'any maskable',
           },
         ],
+        start_url: '/',
       },
     }),
   ],
