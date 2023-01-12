@@ -94,4 +94,4 @@ yarn dev
 
 # :memo: Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo de [licença](https://github.com/tavareshenrique/go-barber-mobile-ts/blob/master/LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a licença MIT - veja o arquivo de [licença](https://github.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list/blob/main/LICENSE) para mais detalhes.
