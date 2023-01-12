@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  O <b>ToDo</b> é o primeiro desafio do primeiro módulo do curso Ignite ReactJS da Rocketseat. Para acessar o código do curso do Ignite ReactJS v.2, <a href="https://github.com/tavareshenrique/ignite-reactjs-v2">clique aqui</a> .
+  O <b>ToDo</b> é o desafio do primeiro módulo do curso  <b>Ignite ReactJS v2 da Rocketseat</b>. Para acessar o código do curso do <b>Ignite ReactJS v.2</b>, <a href="https://github.com/tavareshenrique/ignite-reactjs-v2">clique aqui</a> .
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 > **1.0.** Clone o Repositório:
 
 ```bash
-https://github.com/tavareshenrique/ignite-reactjs-v2.git
+git clone https://github.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list
 ```
 
 > **1.1.** Instale as dependências:
@@ -98,4 +98,4 @@ yarn dev
 
 # :memo: Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo de [licença](https://github.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list/blob/main/LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT - veja o arquivo de [licença](./LICENSE) para mais detalhes.
