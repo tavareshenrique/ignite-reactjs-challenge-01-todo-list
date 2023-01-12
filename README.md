@@ -21,6 +21,10 @@
   O <b>ToDo</b> é o primeiro desafio do primeiro módulo do curso Ignite ReactJS da Rocketseat. Para acessar o código do curso do Ignite ReactJS v.2, <a href="https://github.com/tavareshenrique/ignite-reactjs-v2">clique aqui</a> .
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list/main/src/assets/previews/preview.png" width="700"/>
+</p>
+
 ---
 
 > 🧪 Essa aplicação não possuirá **Testes Unitários**, **Integração** e **E2E** por não ser o foco do estudo, mas está pronta para ser executada. 🧪
